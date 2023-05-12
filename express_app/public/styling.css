@@ -1,0 +1,26 @@
+﻿body {
+  background-color: #F2F2F2;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+main {
+  padding: 3em;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #F2F2F2;
+  padding: 10px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+footer p {
+  font-size: 12px;
+  color: #999999;
+}
