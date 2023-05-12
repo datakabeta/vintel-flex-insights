@@ -10,5 +10,10 @@ if (process.env.NODE_ENV !== "test") {
 // HTTP Port to run our web application
 cfg.port = process.env.PORT || 3000;
 
+cfg.ACCOUNT_SID = process.env.ACCOUNT_SID;
+cfg.AUTH_TOKEN = process.env.AUTH_TOKEN;
+
+
+
 // Export configuration object
 module.exports = cfg;

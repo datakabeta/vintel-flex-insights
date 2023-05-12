@@ -57,8 +57,8 @@ exports.vintel = async function vintel(event, callback) {
   };
 
   let mediaURL = null;
-  const ACCOUNT_SID = 'AC82c891a6a1e6bfa53adec91de5f6e9cc';
-  const AUTH_TOKEN = '50c21aada564e2c53240be62d36bbb10';
+  const ACCOUNT_SID = cfg.ACCOUNT_SID;
+  const AUTH_TOKEN = cfg.AUTH_TOKEN;
 
   const tSID = await getTranscript(
     voicesid,
